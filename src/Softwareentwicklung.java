@@ -17,7 +17,7 @@ public class Softwareentwicklung {
 
     public boolean lernen(int dauer) {
         if (dauer < 15) {
-            System.out.println(dauer + " Minuten sind zu kurz zum Lernen!!!");
+            System.out.println(dauer + " Minuten sind viel zu kurz zum Lernen!!!");
             return false;
         } else {
             System.out.println("Lernen für " + dauer + " Minuten");
