@@ -4,7 +4,7 @@ public class Softwareentwicklung {
 
     public Softwareentwicklung(String dozent) {
         this.dozent = dozent;
-        System.out.println("Ihr Dozent: " + this.dozent);
+        System.out.println("Dozent: " + this.dozent);
     }
 
     public String getDozent() {
